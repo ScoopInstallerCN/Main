@@ -1,12 +1,12 @@
 {
-    "version": "0.14.0",
-    "description": "A Git-compatible DVCS that is both simple and powerful",
+    "version": "0.25.0",
+    "description": "Jujutsu is a Git-compatible DVCS that is both simple and powerful",
     "homepage": "https://github.com/martinvonz/jj",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/martinvonz/jj/releases/download/v0.14.0/jj-v0.14.0-x86_64-pc-windows-msvc.zip",
-            "hash": "757ea18bf2309b2c0e8bfc7819984ea29d71fc2f9fc1d063873b9ba5e098fa5e"
+            "url": "https://github.com/martinvonz/jj/releases/download/v0.25.0/jj-v0.25.0-x86_64-pc-windows-msvc.zip",
+            "hash": "85c0598620410fa71f077cdbff6426aa132e86b2034e4bf1088bafa82541899a"
         }
     },
     "bin": "jj.exe",

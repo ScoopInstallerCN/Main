@@ -1,20 +1,20 @@
 {
-    "version": "9.6.6",
+    "version": "10.2.1",
     "description": "Easily and securely send things from one computer to another.",
     "homepage": "https://schollz.com/software/croc6",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/schollz/croc/releases/download/v9.6.6/croc_9.6.6_Windows-64bit.zip",
-            "hash": "6af6182187163a88c630ce7b1eeb3ef166d84644225fd2cee502795f67c90e90"
+            "url": "https://github.com/schollz/croc/releases/download/v10.2.1/croc_v10.2.1_Windows-64bit.zip",
+            "hash": "19cf7f92ad4a5f458e6569830e2ff805e3fa50723e67fff5ef430fac4a40b62e"
         },
         "32bit": {
-            "url": "https://github.com/schollz/croc/releases/download/v9.6.6/croc_9.6.6_Windows-32bit.zip",
-            "hash": "042a49b4762e577ffb72b4bf502097898ceb47f8054fcd0a9d5636396680a7d9"
+            "url": "https://github.com/schollz/croc/releases/download/v10.2.1/croc_v10.2.1_Windows-32bit.zip",
+            "hash": "70a4631e43134af49d957c6e4fa3275383c1543f5462d6230f90b2e446189efe"
         },
         "arm64": {
-            "url": "https://github.com/schollz/croc/releases/download/v9.6.6/croc_9.6.6_Windows-ARM64.zip",
-            "hash": "f7f47fdc306c7dbaf93c4a6efc14ae0e95b27da464581b1a3d373a06b79b482e"
+            "url": "https://github.com/schollz/croc/releases/download/v10.2.1/croc_v10.2.1_Windows-ARM64.zip",
+            "hash": "b421bac88d296432b6b92005e1dd0c6fc94a023a54afdd0d4965693d264cfd5e"
         }
     },
     "bin": "croc.exe",
@@ -24,17 +24,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/schollz/croc/releases/download/v$version/croc_$version_Windows-64bit.zip"
+                "url": "https://github.com/schollz/croc/releases/download/v$version/croc_v$version_Windows-64bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/schollz/croc/releases/download/v$version/croc_$version_Windows-32bit.zip"
+                "url": "https://github.com/schollz/croc/releases/download/v$version/croc_v$version_Windows-32bit.zip"
             },
             "arm64": {
-                "url": "https://github.com/schollz/croc/releases/download/v$version/croc_$version_Windows-ARM64.zip"
+                "url": "https://github.com/schollz/croc/releases/download/v$version/croc_v$version_Windows-ARM64.zip"
             }
         },
         "hash": {
-            "url": "$baseurl/croc_$version_checksums.txt"
+            "url": "$baseurl/croc_v$version_checksums.txt"
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "version": "12.0.2",
+    "version": "17.2.0",
     "description": "Git plugin that adds Git commands that make collaborative software development more efficient and safe.",
     "homepage": "https://www.git-town.com",
     "license": "MIT",
@@ -8,8 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/git-town/git-town/releases/download/v12.0.2/git-town_windows_intel_64.zip",
-            "hash": "4ee28ad3ae13793c8b5fda62030a5bc89f270bc368968f9c9808ad98393d1383"
+            "url": "https://github.com/git-town/git-town/releases/download/v17.2.0/git-town_windows_intel_64.zip",
+            "hash": "5f344567e52cbcf89a2700e3de2db3d6b1a292c9f2056e3c7dd852ffad8a3921"
+        },
+        "arm64": {
+            "url": "https://github.com/git-town/git-town/releases/download/v17.2.0/git-town_windows_arm_64.zip",
+            "hash": "5d05d87c05213d68201bb2c3f79c1e5f62d10d1a43f301aaea18ba398c5b97ec"
         }
     },
     "bin": "git-town.exe",
@@ -20,7 +24,13 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/git-town/git-town/releases/download/v$version/git-town_windows_intel_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/git-town/git-town/releases/download/v$version/git-town_windows_arm_64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
         }
     }
 }

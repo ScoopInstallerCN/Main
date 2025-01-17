@@ -1,5 +1,5 @@
 {
-    "version": "1.3.2",
+    "version": "1.6.1",
     "description": "Open source build system meant to be both extremely fast and user friendly.",
     "homepage": "https://mesonbuild.com",
     "license": "Apache-2.0",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mesonbuild/meson/releases/download/1.3.2/meson-1.3.2-64.msi",
-            "hash": "5d1f783acd45aa81ed0a6978bdd1dfd7de08d3c5d11e9dc414cdacdc80fcf000"
+            "url": "https://github.com/mesonbuild/meson/releases/download/1.6.1/meson-1.6.1-64.msi",
+            "hash": "01ad25c1282e168611d92bffd1eca585a5b27b8792e61342882bd62b28f8ad4e"
         }
     },
     "extract_dir": "PFiles64\\Meson",

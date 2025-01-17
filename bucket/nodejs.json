@@ -1,23 +1,18 @@
 {
-    "version": "21.6.2",
+    "version": "23.6.0",
     "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
     "homepage": "https://nodejs.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nodejs.org/dist/v21.6.2/node-v21.6.2-win-x64.7z",
-            "hash": "d450d170009d272c98765af3abf2bbc2903c1c08856f9e3730be03cc9d9b2bc5",
-            "extract_dir": "node-v21.6.2-win-x64"
-        },
-        "32bit": {
-            "url": "https://nodejs.org/dist/v21.6.2/node-v21.6.2-win-x86.7z",
-            "hash": "44dee171378d7ac9967e772a8f114be5fdf59a163f65ec5faa7411c8be3bc961",
-            "extract_dir": "node-v21.6.2-win-x86"
+            "url": "https://nodejs.org/dist/v23.6.0/node-v23.6.0-win-x64.7z",
+            "hash": "f68d5ac65b8b5607eb5cc613c7b70c5bae09cad827e5a9c35beacfbeace92911",
+            "extract_dir": "node-v23.6.0-win-x64"
         },
         "arm64": {
-            "url": "https://nodejs.org/dist/v21.6.2/node-v21.6.2-win-arm64.7z",
-            "hash": "a0cdada31786f6ff1f82e8fd91bda23cd4f615a56acd3c9605cd468b60b8437a",
-            "extract_dir": "node-v21.6.2-win-arm64"
+            "url": "https://nodejs.org/dist/v23.6.0/node-v23.6.0-win-arm64.7z",
+            "hash": "f3cbe62de5d09e95ec574af1b4004da34590c8c32720057b8fd3d5dfbd4de0b2",
+            "extract_dir": "node-v23.6.0-win-arm64"
         }
     },
     "persist": [
@@ -33,18 +28,15 @@
         "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
     ],
     "checkver": {
-        "url": "https://nodejs.org/dist/latest/",
-        "regex": "node-v([\\d.]+)-win-x64\\.7z"
+        "url": "https://nodejs.org/dist/index.json",
+        "jsonpath": "$[0].version",
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z",
                 "extract_dir": "node-v$version-win-x64"
-            },
-            "32bit": {
-                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x86.7z",
-                "extract_dir": "node-v$version-win-x86"
             },
             "arm64": {
                 "url": "https://nodejs.org/dist/v$version/node-v$version-win-arm64.7z",

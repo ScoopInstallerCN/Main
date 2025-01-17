@@ -1,31 +1,19 @@
 {
-    "version": "0.16.15",
+    "version": "0.17.27",
     "description": "Idempotent schema management for MySQL, Microsoft SQL Server, and SQLite.",
     "homepage": "https://github.com/k0kubun/sqldef",
     "license": "MIT,Apache-2.0",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/k0kubun/sqldef/releases/download/v0.16.15/mssqldef_windows_amd64.zip",
-                "https://github.com/k0kubun/sqldef/releases/download/v0.16.15/mysqldef_windows_amd64.zip",
-                "https://github.com/k0kubun/sqldef/releases/download/v0.16.15/sqlite3def_windows_amd64.zip"
+                "https://github.com/k0kubun/sqldef/releases/download/v0.17.27/mssqldef_windows_amd64.zip",
+                "https://github.com/k0kubun/sqldef/releases/download/v0.17.27/mysqldef_windows_amd64.zip",
+                "https://github.com/k0kubun/sqldef/releases/download/v0.17.27/sqlite3def_windows_amd64.zip"
             ],
             "hash": [
-                "70d4a6fadd7c3d8e29b6a6a54957174cbe9543d0125f6146342c7cf72fdd2bec",
-                "c6caf0ab6c72fc281431f959f8d83b8a05f22630a2e5745f6267f4dcc8e20f75",
-                "ed15ebde47028a91e98a682c87d2e219aa275a0bd627e026eb2e8bc8aff6b110"
-            ]
-        },
-        "32bit": {
-            "url": [
-                "https://github.com/k0kubun/sqldef/releases/download/v0.13.23/mssqldef_windows_386.zip",
-                "https://github.com/k0kubun/sqldef/releases/download/v0.13.23/mysqldef_windows_386.zip",
-                "https://github.com/k0kubun/sqldef/releases/download/v0.13.23/sqlite3def_windows_386.zip"
-            ],
-            "hash": [
-                "",
-                "f06f29dc3e7683f55bdb1adc90224ce9b5bf46b0ae2e9ed23cada8e5f21958b7",
-                "6e24bc4a66075bda5a75158b5318a5e333af876f5f1d3882841d1ac45b1f3c98"
+                "9bc25d50729280b29f862b8379fb7c95176779782e11efc1c2b9b2fa4864accc",
+                "58adbf0046c413958d738efa461125c3f5ceaf186288cee6b394eb0566b4cf3e",
+                "b6ef15fddafce73064f4ae9a421ac8736a5f0255c9f5de8691727786d0066300"
             ]
         }
     },

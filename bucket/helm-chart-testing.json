@@ -1,16 +1,16 @@
 {
-    "version": "3.10.1",
+    "version": "3.12.0",
     "description": "Tool for testing Helm charts. It is meant to be used for linting and testing pull requests. It automatically detects charts changed against the target branch.",
     "homepage": "https://github.com/helm/chart-testing/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/helm/chart-testing/releases/download/v3.10.1/chart-testing_3.10.1_windows_amd64.zip",
-            "hash": "fff22fa56a619dbe37bdd1633eff9d0c6be0c8a0510692fc1d32c0767460f967"
+            "url": "https://github.com/helm/chart-testing/releases/download/v3.12.0/chart-testing_3.12.0_windows_amd64.zip",
+            "hash": "7976d1f16735355149f6184c321fcd706d6dd69d229f006871e2831015ae16da"
         },
         "arm64": {
-            "url": "https://github.com/helm/chart-testing/releases/download/v3.10.1/chart-testing_3.10.1_windows_arm64.zip",
-            "hash": "873c97568968c0a20bcb2e661f8d5902e07bcb9e6e41ce65f3dd1fee913016ef"
+            "url": "https://github.com/helm/chart-testing/releases/download/v3.12.0/chart-testing_3.12.0_windows_arm64.zip",
+            "hash": "b096ba3e14f69b3e147debd5be2d7f6acb87fc0bee666f6ce38924019de5151f"
         }
     },
     "post_install": [

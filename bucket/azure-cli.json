@@ -1,5 +1,5 @@
 {
-    "version": "2.57.0",
+    "version": "2.68.0",
     "description": "A cross-platform command-line tool to connect to Azure and execute administrative commands on Azure resources",
     "homepage": "https://aka.ms/cli",
     "license": "MIT",
@@ -9,20 +9,15 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.57.0-x64.msi",
-            "hash": "1371945e4103b7635c86bdb18fc7bcc617e4c01d0ac0645029a15926041326a3"
-        },
-        "32bit": {
-            "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.57.0.msi",
-            "hash": "5e9d7b5ebd3023728d38930c0b827e28aff6d0c2387fe96064ea0af5417f624f"
+            "url": "https://azcliprod.blob.core.windows.net/zip/azure-cli-2.68.0-x64.zip",
+            "hash": "edd857baa5e3c87423d197f7dc3f5246f022b23f5308f1c03c3a9f2ead340570"
         }
     },
-    "extract_dir": "Microsoft SDKs\\Azure\\CLI2",
     "env_set": {
-        "AZURE_CLI_PATH": "$dir\\wbin",
-        "AzureCLIPath": "$dir\\wbin"
+        "AZURE_CLI_PATH": "$dir\\bin",
+        "AzureCLIPath": "$dir\\bin"
     },
-    "bin": "wbin\\az.cmd",
+    "bin": "bin\\az.cmd",
     "checkver": {
         "github": "https://github.com/Azure/azure-cli",
         "regex": "/releases/tag/azure-cli-([\\d.]+)"
@@ -30,10 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-$version-x64.msi"
-            },
-            "32bit": {
-                "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-$version.msi"
+                "url": "https://azcliprod.blob.core.windows.net/zip/azure-cli-$version-x64.zip"
             }
         }
     }

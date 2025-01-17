@@ -1,17 +1,17 @@
 {
-    "version": "0.9.2",
+    "version": "0.11.1",
     "description": "JPEG XL image format (.jxl) encode/decode tools",
     "homepage": "https://jpeg.org/jpegxl",
     "license": "BSD-3-Clause",
     "notes": "If the shim for brotli.exe was overwritten by this app's version and you'd like to point it back to brotli's version, run `scoop reset brotli`.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libjxl/libjxl/releases/download/v0.9.2/jxl-x64-windows-static.zip",
-            "hash": "1a51132ed908d0f61a30a545944794fc5fae7fd72e64caeccb1850fb31a250a2"
+            "url": "https://github.com/libjxl/libjxl/releases/download/v0.11.1/jxl-x64-windows-static.zip",
+            "hash": "8f53ebce91820c30c9fc9294f06380213c1e2e66b361718880580246b2be008e"
         },
         "32bit": {
-            "url": "https://github.com/libjxl/libjxl/releases/download/v0.9.2/jxl-x86-windows-static.zip",
-            "hash": "842e87507ace10e77a31de2d4dc4a82fb797219a538fed12e4a5aa881e579e48"
+            "url": "https://github.com/libjxl/libjxl/releases/download/v0.11.1/jxl-x86-windows-static.zip",
+            "hash": "aa950f4d37abc1e52a5dbca153479b7cba0303e35331deb7d5ee5b18adf7a23b"
         }
     },
     "bin": [

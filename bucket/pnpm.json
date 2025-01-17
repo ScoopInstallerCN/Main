@@ -1,12 +1,12 @@
 {
-    "version": "8.15.3",
+    "version": "10.0.0",
     "description": "A fast and disk space efficient Node package manager.",
     "homepage": "https://pnpm.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pnpm/pnpm/releases/download/v8.15.3/pnpm-win-x64.exe#/pnpm.exe",
-            "hash": "4b36496ae5bc3f75a18af5cc17b30737b951d17d1a7f6d21dc9f941ac5be3275"
+            "url": "https://github.com/pnpm/pnpm/releases/download/v10.0.0/pnpm-win-x64.exe#/pnpm.exe",
+            "hash": "a8235a8b4f1efdddd43e09c6d7de72075e7416ddf76428311dafff17b025622f"
         }
     },
     "bin": "pnpm.exe",

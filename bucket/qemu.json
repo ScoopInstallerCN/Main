@@ -1,21 +1,21 @@
 {
-    "version": "8.2.0",
+    "version": "9.2.0",
     "description": "A generic and open source machine emulator and virtualizer.",
     "homepage": "https://qemu.weilnetz.de/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://qemu.weilnetz.de/w64/2023/qemu-w64-setup-20231224.exe#/dl.7z_",
-            "hash": "sha512:a54fe995a712f47f1ffeacb2be302d61684633958a8ccc1dc686773ff910658ad7e52d15d6122ac6b7887ef42b1b63697719082d2f37204bf0965fb7f67820fd"
+            "url": "https://qemu.weilnetz.de/w64/2024/qemu-w64-setup-20241220.exe#/dl.7z",
+            "hash": "sha512:f0c45849d75ecc75fffc29448741bbfdd732d3bea6f606d7f1a8bc3543845cb25ce0a0b5c716d4661d954877c907007a9d96c6136d015fb96afad29e57687bde"
         }
     },
-    "pre_install": "Expand-7zipArchive \"$dir\\dl.7z_\" \"$dir\" -Removal -Switches '-xr!*.exe.nsis -x!$PLUGINSDIR -x!qemu-uninstall.exe'",
+    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\qemu-uninstall.exe\" -Force -Recurse",
     "env_add_path": ".",
     "checkver": "<strong>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})</strong>: New QEMU installer \\(([\\d.]+)\\)",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://qemu.weilnetz.de/w64/$matchYear/qemu-w64-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z_"
+                "url": "https://qemu.weilnetz.de/w64/$matchYear/qemu-w64-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z"
             }
         },
         "hash": {

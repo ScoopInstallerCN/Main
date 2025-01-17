@@ -1,16 +1,16 @@
 {
-    "version": "3.11.7",
+    "version": "4.3.0",
     "description": "Template renderer with various datasource support",
     "homepage": "https://github.com/hairyhenderson/gomplate",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v3.11.7/gomplate_windows-amd64.exe#/gomplate.exe",
-            "hash": "sha512:c073b6b45f67a36da71f14f780a7a1996ad114a2de63ad1f0ce7e9ec4a02c11607a63c91c9ce4b70f8555f0df424ee60e267c3240cfe7ae64237ea65a31253f1"
+            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v4.3.0/gomplate_windows-amd64.exe#/gomplate.exe",
+            "hash": "sha512:a7543b860945f7410c3ff550bff95d82eee0cf7f48a3a247768d985f1bd214f7b759ef963bd697fff04bb35f7940ed05c8edfeb71d17f8ad7d95c68215faacba"
         },
         "32bit": {
-            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v3.11.7/gomplate_windows-386.exe#/gomplate.exe",
-            "hash": "sha512:07ef63e1acb2449087e3a18421f2602e8d7be209cde298d1554fb7220ef0501940260919a28ad87f36e929b39b5201792527372d42d14bf8ff8cc3272049543a"
+            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v4.3.0/gomplate_windows-386.exe#/gomplate.exe",
+            "hash": "sha512:b73c8f9fe9821747d36209c35bfa0a2dd80d57fa7fec7cd1d3196ca493f61b9ad30c5287395474d8a9940a55936cc63f2d4fbc915cef19e2506c0283289284db"
         }
     },
     "bin": "gomplate.exe",

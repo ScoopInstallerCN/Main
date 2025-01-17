@@ -1,12 +1,12 @@
 {
-    "version": "2.8.2",
+    "version": "3.1.3",
     "description": "Project and instances manager for Enonic XP.",
     "homepage": "https://developer.enonic.com/docs/enonic-cli/master",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://repo.enonic.com/public/com/enonic/cli/enonic/2.8.2/enonic_2.8.2_Windows_64-bit.zip",
-            "hash": "d8c7b97a5ff6b0a8295678040aa7cd9bed12df629b3db8f94c01dd3ea5cd09a9"
+            "url": "https://repo.enonic.com/public/com/enonic/cli/enonic/3.1.3/enonic_3.1.3_Windows_64-bit.zip",
+            "hash": "a213368360f7bf1615c56601a3b98547683d44d21c9bab99c54aa4b285d0790b"
         }
     },
     "bin": "enonic.exe",

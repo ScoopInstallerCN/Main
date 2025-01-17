@@ -1,16 +1,16 @@
 {
-    "version": "5.8.11",
+    "version": "5.10.6",
     "description": "Helps Symfony developers manage projects, from local code to remote infrastructure",
     "homepage": "https://symfony.com",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/symfony-cli/symfony-cli/releases/download/v5.8.11/symfony-cli_windows_amd64.zip",
-            "hash": "62e951bbf5668fe1643d1899269db5b96346f2378584c9cef2e4b6ee2454ab3c"
+            "url": "https://github.com/symfony-cli/symfony-cli/releases/download/v5.10.6/symfony-cli_windows_amd64.zip",
+            "hash": "3daff6365c3d6e20bfca596204457b0fa771eab889be71af062a6f66e924c24d"
         },
         "32bit": {
-            "url": "https://github.com/symfony-cli/symfony-cli/releases/download/v5.8.11/symfony-cli_windows_386.zip",
-            "hash": "c5bbfcff49703857ade900e17ca0def0a5b2410e38838fd014adf87bc62e6549"
+            "url": "https://github.com/symfony-cli/symfony-cli/releases/download/v5.10.6/symfony-cli_windows_386.zip",
+            "hash": "3e7360888843fb2cbb4c8c8366d048243dfc930fa5d16a6d947d49e2dbf1300e"
         }
     },
     "bin": "symfony.exe",

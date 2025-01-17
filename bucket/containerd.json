@@ -1,12 +1,12 @@
 {
-    "version": "1.7.13",
+    "version": "2.0.2",
     "description": "An open and reliable container runtime",
     "homepage": "https://containerd.io",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/containerd/containerd/releases/download/v1.7.13/containerd-1.7.13-windows-amd64.tar.gz",
-            "hash": "a576160771eba9b3e0d85a841fa4f6dba60a14c5c4f45e34f2148e2fe138ebb7"
+            "url": "https://github.com/containerd/containerd/releases/download/v2.0.2/containerd-2.0.2-windows-amd64.tar.gz",
+            "hash": "c8f6ee6d13368cbabcf13e742161df7bc2675a00850d65d29d4e2384999f1672"
         }
     },
     "bin": [

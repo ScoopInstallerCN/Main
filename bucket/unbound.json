@@ -1,5 +1,5 @@
 {
-    "version": "1.19.1",
+    "version": "1.22.0",
     "description": "A validating, recursive, caching DNS resolver",
     "homepage": "https://nlnetlabs.nl/projects/unbound/about/",
     "license": "BSD-3-Clause",
@@ -15,12 +15,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_1.19.1.exe#/dl.7z",
-            "hash": "249eb10656f68bc29f567394141e87350807cc863e36a3c27e78ea04ca0e4e3a"
+            "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_1.22.0.exe#/dl.7z",
+            "hash": "6084fb97325ba44ac84420d3b389faf073d99504ed8ce85cacbabfbb1a1fbbef"
         },
         "32bit": {
-            "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_1.19.1-w32.exe#/dl.7z",
-            "hash": "3d4528c71e45b7bea40a535e9005f3da2c5409cc3964ad1c0698589a5ea17ace"
+            "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_1.22.0-w32.exe#/dl.7z",
+            "hash": "b90a919f181fa4b64f51482d4c5d3d62912a42d73b6af2b4064569174d036bb7"
         }
     },
     "pre_install": [
